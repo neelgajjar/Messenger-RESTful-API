@@ -1,5 +1,4 @@
-# RESTfulMessenger
-A basic REST API application for social messenger.
+# RESTful-API
 
 ##### Use the [POSTMAN](https://www.getpostman.com/) desktop/web client to test your API calls
 
@@ -92,6 +91,3 @@ A basic REST API application for social messenger.
 [http://localhost:8080/RESTfulMessenger/restapi/profiles/{profilename}](#)
 
 ---
-
-#### TODO:
-* Make it thread-safe
