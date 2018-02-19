@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 # RESTful-Messenger
-This is my first RESTful API. It is but a simple messenger app that allows a user to post a message, update a message, delete a message and determine whether a particular message is palindromic or not.
+This is a simple messenger app that allows a user to post a message, update a message, delete a message and determine whether a particular message is palindromic or not.
 =======
 # RESTful-API
->>>>>>> 6f9ac187f2e18828f0dec9622b1568f0eae08318
-
 #Implementation Architecutre
 This project is created using the latest Jave EE Eclipse Mars IDE. I used a Maven project in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (handling HTTP requests, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also crucial for deployment. The following diagram provides an illustration.
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg)
@@ -49,11 +46,6 @@ Here's how to use the GET, POST, PUT and DELETE requests:
 - **PUT**   *.../MessengerAPI/messages/id* =>  to replace message with *id* with a new message provided in the body in a json format
 - **DELETE**  *.../MessengerAPI/messages/id* => to delete message with *id*
 
-<<<<<<< HEAD
-#Future Works
-Besides making the application more meaningful, I plan to a) provide a UI and, more importantly, b) deploy it within a container. I have already attempted the latter by exploring Docker. I've spent many hours researching online on ways to integrate my Maven project, AWS and Docker, but to no avail. I was able to find an eclipse Docker image but was not able to make it work due to the lack of documentation. 
-=======
----
 
 #### DELETE
 ###### MESSAGE
@@ -61,6 +53,3 @@ Besides making the application more meaningful, I plan to a) provide a UI and, m
 
 ###### PROFILE
 [http://localhost:8080/RESTfulMessenger/restapi/profiles/{profilename}](#)
-
----
->>>>>>> 6f9ac187f2e18828f0dec9622b1568f0eae08318
